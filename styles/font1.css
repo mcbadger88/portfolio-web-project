@@ -3,7 +3,7 @@
     position: relative;
     bottom: 3.5vh;
     left: 6vh;
-    font-size: 24px;
+    font-size: calc(1.2rem + 1.5vw);
     font-weight: 700;
     text-align: center;
 
@@ -12,7 +12,7 @@
 }
 
 .page-layout-container h2 {
-    font-size: 21px;
+    font-size: calc(0.7rem + 1.5vw);
     /* font-style: italic;*/
     font-weight: 300;
     /* text-align: center; */

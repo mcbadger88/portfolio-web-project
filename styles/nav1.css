@@ -16,6 +16,7 @@
     text-align: center;
     color: rgba(0, 0, 0, 0.6);
     text-transform: uppercase;
+    font-size: calc(0.8rem + 0.2vw);
 }
 
 /* simple nav maroon bottom lone border set to 5vh*/
