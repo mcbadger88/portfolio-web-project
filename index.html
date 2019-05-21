@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Emma Cullen Full-Stack Developer</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300i,400,700,800,900,900i&display=swap&effect=brick-sign" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <ul class="nav-container">
+            <a href="#home" class="nav-item">Home:.</a>
+            <a href="#about" class="nav-item">About:.</a>
+            <a href="#skills"class="nav-item">Skills:.</a>
+            <a href="#projects" class="nav-item">Previous Experience:.</a>
+            <a href="#contact" class="nav-item">Contact:.</a>
+        </ul>
+    </nav>
+    <div id="home" class="page-layout-container">
+        <h1 class="font-effect-brick-sign">emma cullen |</h1>
+        <!-- <h1>emma cullen |</h1> -->
+        <h2>:.full-stack-developer</h2>
+    </div>
+    <div id="about" class="page-layout-container">
+            <h1 class="font-effect-brick-sign">about |</h1>
+            <!-- <h1>emma cullen |</h1> -->
+            <h2>:.full-stack-developer</h2>
+    </div>
+    <form name="contact" method="POST" data-netlify="true">
+        <p>
+            <label>Your Name: <input type="text" name="name" /></label>   
+        </p>
+        <p>
+            <label>Your Email: <input type="email" name="email" /></label>
+        </p>
+        <p>
+            <label>Your Role: <select name="role[]" multiple>
+            <option value="leader">Leader</option>
+            <option value="follower">Follower</option>
+            </select></label>
+        </p>
+        <p>
+            <label>Message: <textarea name="message"></textarea></label>
+        </p>
+        <p>
+            <button type="submit">Send</button>
+        </p>
+    </form>
+</body>
+</html>
