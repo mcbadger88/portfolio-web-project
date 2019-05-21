@@ -15,32 +15,6 @@ html {
     /* font-size: 4vw; */
 }
 
-body::before {
-    /* background-color: red; */
-    background: 
-    /* top, transparent */ 
-    linear-gradient(
-    rgba(196, 156, 156, 0.2),
-      rgba(196, 156, 156, 0.2)
-    ),
-    /* bottom, image */
-    url("../image.png");
-    background-attachment: fixed;
-    background-repeat: repeat-y;
-    background-size: cover;
-    background-position: center;
-    /* filter: #C49C9C; */
-    content: "";
-    height: 500px;
-    width: 100%;
-    display: block;
-    position: absolute;
-    /* top: 0;
-    left: 0; */
-    z-index: -2;
-    opacity: 0.2; 
-    clip-path: polygon(0% 0%, 100% 20%, 98% 70%, 3% 93%);
-}
 body {
     /* background-image: url("/../image.png");
     background-size: 100%;  */
@@ -52,6 +26,12 @@ nav {
     z-index: 1;
 }
 
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
 .page-layout-container {
     /* Layout */
     display: flex;
@@ -59,6 +39,9 @@ nav {
     justify-content: center;
     align-items: center;
 
+    /* Position */
+    position: relative;
+    bottom: 150px;
     /* Fonts */
 
     /* Background/Design Content */
@@ -72,7 +55,7 @@ nav {
     url("../image.png");
     -webkit-clip-path: polygon(0% 0%, 100% 20%, 98% 70%, 3% 93%);
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 100%;
     background-position: center;
     /* height: 500px;
     width: 100%; */
