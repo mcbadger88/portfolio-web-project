@@ -30,6 +30,7 @@
     height: 5vh;
 
     border-bottom: 1px solid rgb(196, 156, 156);
+    background: linear-gradient(to top,rgba(255,255,255,.7),rgba(255,255,255,.25));
 }
 
 /* faded nav gradient grey */

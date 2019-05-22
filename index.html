@@ -11,47 +11,53 @@
 <body>
     <nav>
         <ul class="nav-container">
-            <a href="#home" class="nav-item">Home:.</a>
-            <a href="#about" class="nav-item">About:.</a>
+            <a href="#home-header" class="nav-item">Home:.</a>
+            <a href="#about-header" class="nav-item">About:.</a>
             <a href="#skills"class="nav-item">Skills:.</a>
             <a href="#projects" class="nav-item">Previous Experience:.</a>
             <a href="#contact" class="nav-item">Contact:.</a>
         </ul>
     </nav>
-    <div id="home" class="page-layout-container">
-        <h1 class="font-effect-brick-sign">emma cullen |</h1>
-        <!-- <h1>emma cullen |</h1> -->
-        <h2>:.full-stack-developer</h2>
+    <div class="grid-container">
+            <div id="home-header">
+                    <h1 class="font-effect-brick-sign">emma cullen |</h1>
+                    <!-- <h1>emma cullen |</h1> -->
+                    <h2>:.full-stack-developer</h2>
+            </div>
+            <p class="home-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  </p>
+            <div class="home-image"></div>
+            <div id="about-header">
+                    <h1 class="font-effect-brick-sign">about |</h1>
+                    <!-- <h1>emma cullen |</h1> -->
+                    <h2>:.full-stack-developer</h2>
+            </div>
+            <p class="about-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  
+            </p>
+            <div class="about-image"></div>
+            <form name="contact" method="POST" data-netlify="true">
+                    <p>
+                        <label>Your Name: <input type="text" name="name" /></label>   
+                    </p>
+                    <p>
+                        <label>Your Email: <input type="email" name="email" /></label>
+                    </p>
+                    <p>
+                        <label>Your Role: <select name="role[]" multiple>
+                        <option value="leader">Leader</option>
+                        <option value="follower">Follower</option>
+                        </select></label>
+                    </p>
+                    <p>
+                        <label>Message: <textarea name="message"></textarea></label>
+                    </p>
+                    <p>
+                        <button type="submit">Send</button>
+                    </p>
+                </form>
     </div>
-    <div id="about">
-            <h1 class="font-effect-brick-sign">about |</h1>
-            <!-- <h1>emma cullen |</h1> -->
-            <h2>:.full-stack-developer</h2>
-    </div>
-    <div class="page-layout-container">
-            <h1 class="font-effect-brick-sign">about |</h1>
-            <!-- <h1>emma cullen |</h1> -->
-            <h2>:.full-stack-developer</h2>
-    </div>
-    <form name="contact" method="POST" data-netlify="true">
-        <p>
-            <label>Your Name: <input type="text" name="name" /></label>   
-        </p>
-        <p>
-            <label>Your Email: <input type="email" name="email" /></label>
-        </p>
-        <p>
-            <label>Your Role: <select name="role[]" multiple>
-            <option value="leader">Leader</option>
-            <option value="follower">Follower</option>
-            </select></label>
-        </p>
-        <p>
-            <label>Message: <textarea name="message"></textarea></label>
-        </p>
-        <p>
-            <button type="submit">Send</button>
-        </p>
-    </form>
 </body>
 </html>
