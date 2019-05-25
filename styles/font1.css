@@ -1,3 +1,33 @@
+h1 {
+    color: var(--dark-brick);
+    text-shadow: 1px 1px var(--pale-brick);
+    opacity: 0.7;
+    /* text-decoration: dotted;
+    text-decoration-line: overline; */
+    letter-spacing: -0.2rem;
+    font-size: calc(2rem + 0.5vw);
+    position: relative;
+    bottom: 3.5vh;
+    left: 3vh;
+    font-weight: 600;
+}
+
+h2 {
+    letter-spacing: -0.1rem;
+    font-size: calc(1.2rem + 0.5vw);
+    /* font-size: calc(0.6rem + 1.2vw); */
+    font-weight: 300;
+    font-style: italic;
+    color: var(--header-text-black);
+}
+
+p {
+    font-size: 1.35rem;
+    font-family: 'Lora', serif;
+    color: var(--p-text-black);
+    /* line-height: 27px; */
+}
+
 /* brick name italic description */
 .page-layout-container h1 {
     position: relative;

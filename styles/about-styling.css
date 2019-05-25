@@ -1,0 +1,11 @@
+#about-header {
+    display: flex;
+    align-content: flex-end;
+
+}
+
+.about-text {
+    padding-right: 10vw;
+    padding-bottom: 10vh;
+    padding-left: 10vw;
+}

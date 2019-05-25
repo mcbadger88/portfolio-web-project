@@ -1,0 +1,103 @@
+/* General Styles */
+.project {
+    display: flex;
+    width: max-content;
+    height: max-content;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.project:nth-child(2n) {
+    flex-direction: row;
+  }
+
+.project-text {
+    width: 27rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.project-text h2 {
+    width: 99%;
+    margin: 1%;
+    margin-bottom: 0;
+    font-style: bolder;
+}
+
+.project-text h3 {
+    width: 99%;
+    margin: 1%;
+    margin-top: 0;
+    margin-bottom: 0;
+} 
+
+.project-text p {
+    width: 99%;
+    margin: 1%;
+}
+
+.project-text em {
+    font-style: italic;
+}
+
+.skill-logo {
+    width: 4rem;
+    height: 4rem;
+    margin: 2%;
+    opacity: 0.8;
+    background-color: white;
+    border-radius: 25px;
+    /* border: 2px solid #73AD21; */
+    border: 2px solid var(--dark-brick);
+    padding: 0.4rem;
+    box-shadow: 0 5px 30px rgba(0,0,0,0.2);
+    border-radius: 3px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+/* Specific Projects */
+
+.project1-img {
+    width: 20rem;;
+    height: 15rem;
+    margin: 1rem;
+    background: 
+    /* top, transparent */ 
+    linear-gradient(
+    rgba(196, 156, 156, 0.3),
+      rgba(196, 156, 156, 0.3)
+    ),
+    url("../images/networking.jpg"),
+    /* bottom, image */
+    url("../images/program-code-scrolling-program-code-in-c-language-the-code-was-released-into-the-public-domain_rwfzh2xm__F0000.jpg");   
+    background-repeat: no-repeat;
+    background-size: 150%;
+    box-shadow: 0 5px 30px rgba(0,0,0,0.2);
+    border-radius: 3px;
+
+    position: relative;
+}
+
+.project2-img {
+    width: 20rem;;
+    height: 15rem;
+    margin: 1rem;
+    background: 
+    /* top, transparent */ 
+    linear-gradient(
+    rgba(196, 156, 156, 0.3),
+      rgba(196, 156, 156, 0.3)
+    ),
+    url("../images/meal-assistant.jpg");
+    background-repeat: no-repeat;
+    background-size: 150%;
+    box-shadow: 0 5px 30px rgba(0,0,0,0.2);
+    border-radius: 3px;
+
+    position: relative;
+}

@@ -16,7 +16,12 @@
     text-align: center;
     color: rgba(0, 0, 0, 0.6);
     text-transform: uppercase;
-    font-size: calc(0.8rem + 0.2vw);
+    font-size: 1rem;
+}
+
+.nav-item:hover {
+    color: var(--dark-brick);
+    font-size: 1.02rem;
 }
 
 /* simple nav maroon bottom lone border set to 5vh*/
@@ -29,8 +34,10 @@
 
     height: 5vh;
 
-    border-bottom: 1px solid rgb(196, 156, 156);
+    border-bottom: 1px solid #478AE2;
     background: linear-gradient(to top,rgba(255,255,255,.7),rgba(255,255,255,.25));
+
+    z-index: 5;
 }
 
 /* faded nav gradient grey */

@@ -1,0 +1,50 @@
+.skills-text {
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-text h4 {
+    z-index: 0;
+}
+
+#skills-header {
+    align-content: flex-end;
+    justify-content: flex-start;
+    padding-left: 10%;
+    padding-bottom: 3rem;
+}
+
+#skills-header h1 {
+    background-color: white;
+    border-radius: 0.5rem;
+
+}
+ 
+.skills-text ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills-text ul li {
+    width: 4rem;
+    margin: 2%;
+    opacity: 0.8;
+    background-color: white;
+    border-radius: 25px;
+    /* border: 2px solid #73AD21; */
+    border: 2px solid var(--dark-brick);
+    padding: 0.4rem;
+    box-shadow: 0 5px 30px rgba(0,0,0,0.2);
+    border-radius: 3px;
+}
+
+.skills-text ul li img {
+    width: 70%;
+}
+
