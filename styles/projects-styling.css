@@ -6,6 +6,7 @@
     flex-wrap: wrap;
     flex-direction: row-reverse;
     justify-content: center;
+    align-items: center;
 }
 
 .project:nth-child(2n) {
@@ -16,15 +17,18 @@
     width: 27rem;
     display: flex;
     flex-direction: column;
-    align-content: center;
+    align-items: center;
     justify-content: center;
     overflow: hidden;
+
 }
 .project-text h2 {
     width: 99%;
     margin: 1%;
     margin-bottom: 0;
-    font-style: bolder;
+    font-style: normal;
+    font-weight: 500;
+    font-size: calc(0.8rem + 0.5vw);
 }
 
 .project-text h3 {
@@ -32,11 +36,14 @@
     margin: 1%;
     margin-top: 0;
     margin-bottom: 0;
+    font-style: italic;
+    font-size: calc(0.75rem + 0.5vw);
 } 
 
 .project-text p {
     width: 99%;
     margin: 1%;
+    font-size: calc(0.7rem + 0.5vw);
 }
 
 .project-text em {
@@ -94,6 +101,25 @@
       rgba(196, 156, 156, 0.3)
     ),
     url("../images/meal-assistant.jpg");
+    background-repeat: no-repeat;
+    background-size: 150%;
+    box-shadow: 0 5px 30px rgba(0,0,0,0.2);
+    border-radius: 3px;
+
+    position: relative;
+}
+
+.project3-img {
+    width: 20rem;;
+    height: 15rem;
+    margin: 1rem;
+    background: 
+    /* top, transparent */ 
+    linear-gradient(
+    rgba(196, 156, 156, 0.1),
+      rgba(196, 156, 156, 0.1)
+    ),
+    url("../images/crazy-grid.png");
     background-repeat: no-repeat;
     background-size: 150%;
     box-shadow: 0 5px 30px rgba(0,0,0,0.2);
