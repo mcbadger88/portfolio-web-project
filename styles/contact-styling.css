@@ -13,13 +13,26 @@ form * {
     
 }
 
-input, textarea {
+input, textarea, button {
     width: 60%;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin: 8px 4px;
     box-sizing: border-box;
     border: 2px solid var(--dark-brick);
     border-radius: 4px;
+}
+
+button {
+    width: max-content;
+    padding: 4px 8px;
+    margin: 4px 4px;
+    box-sizing: border-box;
+    border: 1px solid var(--p-text-black);
+    border-radius: 4px;
+}
+
+button:hover {
+    color: var(--dark-brick);
 }
 
 form h4 {

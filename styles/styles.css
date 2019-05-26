@@ -256,6 +256,7 @@ nav {
 
 form {
     grid-column-start: 2;
+    grid-column-end: 3;
     grid-row-start: 21;
     grid-row-end: 23;
     display: flex;
@@ -267,6 +268,7 @@ form {
 
 .contact-icons-container {
     grid-column-start: 2;
+    grid-column-end: 3;
     grid-row-start: 23;
     grid-row-end: 24;
 }
