@@ -1,4 +1,4 @@
-# portfolio
+# Portfolio
 
 **About this site**
 
@@ -125,7 +125,7 @@ Final mockup before beginning coding:
 
 *Usability Considerations*
 
-Was sure to try to keep the HTML structured in a sensible way to aid with reading the HTML, and minimise the use of divs soley for layout purposes.
+Was sure to try to keep the HTML structured in a semantic way to aid with reading the HTML, and minimise the use of divs soley for layout purposes.
 
 Alts were added to all images. When applying filters to images, I had to set them as background images on a div in order to be able to use this CSS functionality. I made sure to add an alt to those divs describing what the image was, so that readers would know what the div contained and not lose the experience of the site.
 
@@ -137,7 +137,7 @@ Alts were added to all images. When applying filters to images, I had to set the
 
 I used git throughout to save working versions of the site, and could easily then push and view on my mobile via the netlify hosting. This enabled me to continuously check the site on mobile and desktop.
 
-A trello board was set up at the beginning of the project, screenshots included below. I did not manage to get everything I initially planned for MVP done, but I did get something off the stretch list done so I am pleased with that. I had initially thought it would be a stretch goal to make the site 'self-designing', but as I progressed with the project I realised I wanted to use this property as the basis for the design anyway, so just started to do and think about it at the same time as the other tasks.
+A trello board was set up at the beginning of the project, screenshots included below. I did not manage to get everything I initially planned for MVP done, but I did get something off the stretch list done so I am pleased with that. I had initially thought it would be a stretch goal to include animated gemoetrical shapes that could 'guide the user flow', but as I progressed with the project I realised I wanted to use this property as the basis for the design anyway, so just started to do and think about it at the same time as the other tasks.
 
 I did not start coding until after 3 days in, this only left me with 3 days and in hindsight I would have needed longer.
 
@@ -155,3 +155,48 @@ final:
 ![Screenshot of Trello task list](./docs/finaltrello.png)
 
   
+
+## Assessment Questions ##
+
+*Question 1*
+
+Describe key events in the development of the internet from the 1980s to today
+
+**Answer**
+
+In the 1980s, the world realises the importance of developing networks for scientific research and personal communication. The National Science Foundation (NSF) was then the major organism in the creation and development of the NSFNET which evolved in the Internet today.
+
+In 1981 the TCP/IP  protocol is established, this protocol carries most of the “packets” of information across the internet. 
+
+In November 1983 the Domain Name System (DNS) is introduced to the internet, allowing quick exchange of IP addresses.
+
+On the same month, Microsoft Word is announced.
+
+In 1989, World Wide Web is invented by Tim Berners-Lee.
+
+As of today, the internet is accessible almost anywhere in the world especially via the mobile phones “smartphones” present in everyone's pocket.
+
+
+
+*Question 2*
+
+Define and describe the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers
+
+**Answer**
+
+
+Let’s use the example of researching activities to do in Melbourne to answer this question.
+
+
+In order to make a internet search, I open a Browser (e.g : Chrome) and type in the domain name of the Web browser I will use e.g: www.google.com.
+
+My web browser will then find google’s IP address.
+
+The web browser will have to request the IP address from the DNS server if the IP address isn’t already present in my computer’s cache
+
+The computer is now able to send a request to see the webpage from the web server. This server will then respond to this request if it can, otherwise, an error message will be communicated.
+
+To finish, the browser will compile all the packets of information in order to show an internet page as it should look to humans. This communication will be sent to your computers IP address 
+*Question 3*
+
+Define and describe the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers 
