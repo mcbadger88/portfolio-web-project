@@ -1,6 +1,7 @@
 @import "colours.css"; 
 @import "font1.css"; 
 @import "nav1.css"; 
+@import "home-styling.css"; 
 @import "about-styling.css"; 
 @import "skills-styling.css"; 
 @import "projects-styling.css"; 
@@ -22,6 +23,8 @@
     font-family: 'Montserrat', sans-serif; font-weight:400; font-style: normal;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
+    /* Debugging borders */
+    /* border: 0.5px solid var(--dark-brick); */
 }
 
 html {
@@ -35,6 +38,7 @@ body {
     /* background-image: url("/../image.png");
     background-size: 100%;  */
     /* clip-path: polygon(0% 0%, 100% 20%, 98% 70%, 3% 93%); */
+    width: calc(100vw - (100vw - 100%));
     
 } 
 
@@ -106,10 +110,11 @@ nav {
  */
 .grid-container {
     display: grid;
-    grid-template-columns: 40vw 60vw;
+    grid-template-columns: 40% 58%;
     /* grid-template-columns: 100vw; */
     grid-template-rows: repeat(22, 25vh);
-    grid-gap: 2vw;
+    /* grid-gap: 2%; */
+    grid-gap: calc(0.7rem + 0.2vh);
     /* grid-template-rows: minmax(25vmin, 1fr) minmax(25vmin, 1fr) minmax(25vmin, 1fr) minmax(25vmin, 1fr) minmax(25vmin, 1fr) minmax(25vmin, 1fr); */
     position: relative;
     top: 5vh;
@@ -121,12 +126,6 @@ nav {
     grid-column-end: 1;
     grid-row-start: 1;
     grid-row-end: 2;
-
-    /* Element Content Layout */
-    justify-content: flex-start;
-    align-items: flex-end;
-    text-align: right;
-    padding-left: 5vw;
 }
 
 .home-text {
@@ -210,7 +209,7 @@ nav {
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 14;
-    grid-row-end: 18;
+    grid-row-end: 19;
 
     /* z-index */
     position: relative;
@@ -218,9 +217,13 @@ nav {
 
     /* Content Layout */
     display: flex;
-    justify-content: space-around;
-    align-content: space-around;
+    /* justify-content: space-around;
+    align-content: space-around; */
     flex-wrap: wrap;
+
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: flex-start;
 }
 
 .projects-footer-image  {

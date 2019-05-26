@@ -1,0 +1,14 @@
+    /* Element Content Layout
+    justify-content: flex-start;
+    align-items: flex-end;
+    text-align: right;
+    padding-left: 5vw; */
+
+    .home-text {
+        width: 85%;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-self: center;
+        justify-self: center;
+    }

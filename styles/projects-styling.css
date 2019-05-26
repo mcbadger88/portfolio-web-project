@@ -7,6 +7,7 @@
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
+    padding: 1rem;
 }
 
 .project:nth-child(2n) {
@@ -14,7 +15,7 @@
   }
 
 .project-text {
-    width: 27rem;
+    width: 25rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,7 +29,7 @@
     margin-bottom: 0;
     font-style: normal;
     font-weight: 500;
-    font-size: calc(0.8rem + 0.5vw);
+    font-size: 1.3rem;
 }
 
 .project-text h3 {
@@ -37,13 +38,13 @@
     margin-top: 0;
     margin-bottom: 0;
     font-style: italic;
-    font-size: calc(0.75rem + 0.5vw);
+    font-size: 1.3rem;
 } 
 
 .project-text p {
     width: 99%;
     margin: 1%;
-    font-size: calc(0.7rem + 0.5vw);
+    font-size: 1.2rem;
 }
 
 .project-text em {
@@ -76,8 +77,8 @@
     background: 
     /* top, transparent */ 
     linear-gradient(
-    rgba(196, 156, 156, 0.3),
-      rgba(196, 156, 156, 0.3)
+    rgba(196, 156, 156, 0.2),
+      rgba(196, 156, 156, 0.2)
     ),
     url("../images/networking.jpg"),
     /* bottom, image */
@@ -97,8 +98,8 @@
     background: 
     /* top, transparent */ 
     linear-gradient(
-    rgba(196, 156, 156, 0.3),
-      rgba(196, 156, 156, 0.3)
+    rgba(196, 156, 156, 0.1),
+      rgba(196, 156, 156, 0.1)
     ),
     url("../images/meal-assistant.jpg");
     background-repeat: no-repeat;

@@ -7,8 +7,8 @@ h1 {
     letter-spacing: -0.2rem;
     font-size: calc(2rem + 0.5vw);
     position: relative;
-    bottom: 3.5vh;
-    left: 3vh;
+    bottom: calc(1.5rem + 0.5vh);
+    left: calc(1rem + 0.5vh);
     font-weight: 600;
 }
 
