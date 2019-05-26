@@ -5,6 +5,7 @@
 @import "about-styling.css"; 
 @import "skills-styling.css"; 
 @import "projects-styling.css"; 
+@import "contact-styling.css"; 
 
 @keyframes background-animation {
     0% {
@@ -55,13 +56,14 @@ nav {
     /* Element Content Layout */
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-end;
-    text-align: right;
-    padding-left: 5vw;
     overflow: hidden;
     position: relative;
     z-index: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 }
 
 .page-header h1, h2 {
@@ -112,9 +114,9 @@ nav {
     display: grid;
     grid-template-columns: 40% 58%;
     /* grid-template-columns: 100vw; */
-    grid-template-rows: repeat(22, 25vh);
+    grid-template-rows: repeat(24, 25vh);
     /* grid-gap: 2%; */
-    grid-gap: calc(0.7rem + 0.2vh);
+    grid-gap: calc(0.7rem + 0.2vh) 2%;
     /* grid-template-rows: minmax(25vmin, 1fr) minmax(25vmin, 1fr) minmax(25vmin, 1fr) minmax(25vmin, 1fr) minmax(25vmin, 1fr) minmax(25vmin, 1fr); */
     position: relative;
     top: 5vh;
@@ -154,9 +156,10 @@ nav {
 
 .about-text {
     grid-column-start: 3;
-    grid-column-end: 2;
+    grid-column-end: 1;
     grid-row-start: 6;
     grid-row-end: 8;
+    z-index: 1;
 }
 
 .about-footer-image {
@@ -257,14 +260,13 @@ form {
     grid-row-end: 23;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: right;
+    align-content: right;
+    justify-content: center;
 }
 
-input, textarea {
-    width: 60%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: 2px solid var(--dark-brick);
-    border-radius: 4px;
+.contact-icons-container {
+    grid-column-start: 2;
+    grid-row-start: 23;
+    grid-row-end: 24;
 }

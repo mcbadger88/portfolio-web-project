@@ -1,0 +1,42 @@
+#contact-header {
+    /* display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    text-align: right;
+    padding-left: 5vw; */
+}
+
+form * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+input, textarea {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid var(--dark-brick);
+    border-radius: 4px;
+}
+
+form h4 {
+    margin-top: 8px;
+}
+.contact-icons-container {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-icons-container a {
+    width: max-content;
+    padding: 12px 20px;
+    margin: 8px 0;
+    opacity: 0.8;
+}
+
+.contact-icons-container a img{
+    width: 3rem;
+}

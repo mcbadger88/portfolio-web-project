@@ -1,3 +1,10 @@
+#projects-header {
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center; */
+}
+
 /* General Styles */
 .project {
     display: flex;
@@ -9,6 +16,7 @@
     align-items: center;
     padding: 1rem;
 }
+
 
 .project:nth-child(2n) {
     flex-direction: row;
