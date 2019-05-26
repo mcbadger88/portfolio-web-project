@@ -197,6 +197,18 @@ The web browser will have to request the IP address from the DNS server if the I
 The computer is now able to send a request to see the webpage from the web server. This server will then respond to this request if it can, otherwise, an error message will be communicated.
 
 To finish, the browser will compile all the packets of information in order to show an internet page as it should look to humans. This communication will be sent to your computers IP address 
+
 *Question 3*
 
-Define and describe the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers 
+Reflect on one aspect of the development of internet technologies and how it has contributed to the world today
+
+**Answer**
+
+The aspect of internet technologies development I choose to reflect on is the almost unlimited access to knowledge.
+
+
+In today’s world, almost every developed country citizen has access to the internet. Which means that almost anywhere, anytime in these countries, your phone, with internet access can answer most of your questions. 
+
+There is no need to go somewhere / open a book to find an answer. No need to buy the Newspaper to read the daily news. Almost anyone can choose to read, learn, acquire more knowledge with very few limitations.
+
+This aspect of technology place everyone on the same level, we all have access to billions of resources and can learn about everything if we decide so.
